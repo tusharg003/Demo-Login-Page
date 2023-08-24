@@ -20,7 +20,19 @@
 
 <body>
     <div class="main">
-        <div class="left">left</div>
+        <div class="left">
+            <div class="blank"></div>
+            <div class="odin-image">
+                <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+                    alt="">
+                Odin
+            </div>
+            <div class="footer">
+                <p class="footer-text">Photo by <a href="https://unsplash.com/@haliewestphoto">Haile West</a> on <a
+                        href="http://unsplash.com">Unsplash</a></p>
+            </div>
+        </div>
+
         <div class="right">
             <div class="first">
                 <h5>Prepare to embark on the most riveting rollercoaster of digital
@@ -45,8 +57,12 @@
                         <div class="form-div">
                             <label for="password">Password</label>
                             <input type="password" id="password" name="password" required>
-                            <p class="error">*Passwords do not match</p>
+                            <p class="error"></p>
                         </div>
+                        <!-- <div class="showPassword">
+                            <input type="checkbox" id="show-password-checkbox" name="show-password">
+                            <label for="show-password">Show Password</label>
+                        </div> -->
                     </div>
 
                     <div class="form-divs">
@@ -60,7 +76,7 @@
                         </div>
                         <div class="form-div">
                             <label for="confirm_password">Confirm Password</label>
-                            <input type="confirm_password" id="confirm_password" name="confirm_password" required>
+                            <input type="password" id="confirm_password" name="confirm_password" required>
                         </div>
                     </div>
                 </form>
