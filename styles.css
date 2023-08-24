@@ -27,16 +27,18 @@ body {
     color: white;
     align-items: center;
 }
-img{
+
+img {
     height: 150px;
 }
+
 .blank {
     height: 10vh;
 }
 
 .odin-image {
     display: flex;
-    
+
     height: 33vh;
     background-color: rgba(0, 0, 0, 0.451);
     width: 100%;
@@ -125,6 +127,25 @@ input:invalid {
     margin-top: 0px;
     font-size: 12px;
     color: red;
+}
+
+.showPassword {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: smaller;
+}
+
+.showPassword label {
+    margin: 0;
+    padding: 0;
+}
+
+#show-password-checkbox {
+    display: flex;
+    width: 15px;
+    margin-right: 5px;
 }
 
 #password {
