@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Demo Login Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,800;1,100;1,200;1,300;1,400;1,600;1,700&family=Roboto+Slab:wght@400;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./styles.css" />
     <script src="./js.js" defer></script>
-  </head>
-  <body></body>
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">left</div>
+        <div class="right">
+            <div class="first">
+                <h2>Prepare to embark on the most riveting rollercoaster of digital
+                    excitement! </br>Our demo signup is like a virtual party where code and
+                    creativity collide. Join <em>now</em> to experience the sheer awesomeness of
+                    our platform.
+                    <br><br> Don't worry, no actual clowns involved - we promise!
+                </h2>
+            </div>
+            <div class="second">
+                <h3>Lets do this!</h3>
+                <form action="" method="get" class="form-main-div">
+                    <div class="form-divs">
+                        <div class="form-div">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" name="first_name">
+                        </div>
+                        <div class="form-div">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-div">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                            <p class="error">*Passwords do not match</p>
+                        </div>
+                    </div>
+
+                    <div class="form-divs">
+                        <div class="form-div">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" name="last_name">
+                        </div>
+                        <div class="form-div">
+                            <label for="phone_number">Phone Number</label>
+                            <input type="number" id="phone_number" name="phone_number">
+                        </div>
+                        <div class="form-div">
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="confirm_password" id="confirm_password" name="confirm_password" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="third">bye</div>
+        </div>
+    </div>
+</body>
+
 </html>
